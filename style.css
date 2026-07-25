@@ -29,3 +29,19 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+button {
+    margin: 10px;
+}
+
+#strength {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+}
