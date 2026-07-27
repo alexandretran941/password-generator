@@ -21,7 +21,7 @@ function generatePassword(){
     for (let i = 0; i < length; i++) {
         const random = Math.floor(Math.random() * characters.length);
 
-        password += charcters[random];
+        password += characters[random];
     }
     
     document.getElementById("password").value = password;
